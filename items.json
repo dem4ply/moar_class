@@ -1,0 +1,54 @@
+[
+  {
+    "id": "survivor_vest_with_pistol",
+    "type": "ARMOR",
+    "copy-from": "survivor_vest",
+    "name": { "str": "arnes de superviviente", "str_pl": "arnes de superviviente" },
+    "description": "Un arnés ligero personalizado con varias ranuras y una eslinga táctica integrada para colgar un pequeño rifle o un arma similar, en la parte trasera tiene una funda de pistola. Duradero y diseñado para ser cómodo de usar. Hay que activarlo para desenfundar y enfundar el arma.",
+    "weight": "520 g",
+    "volume": "1750 ml",
+    "flags": [ "WATER_FRIENDLY", "WAIST", "STURDY", "OVERSIZE" ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "min_item_volume": "1000 ml",
+        "max_contains_volume": "8 L",
+        "max_contains_weight": "8200 g",
+        "max_item_length": "120 cm",
+        "moves": 50
+      },
+      {
+        "magazine_well": "350 ml",
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "min_item_volume": "300 ml",
+        "max_contains_volume": "1000 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "30 cm",
+        "moves": 50
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "5 kg",
+        "max_item_length": "20 cm",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "5 kg",
+        "max_item_length": "20 cm",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "5 kg",
+        "max_item_length": "20 cm",
+        "moves": 80
+      }
+    ]
+  }
+]

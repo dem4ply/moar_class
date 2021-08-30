@@ -1,0 +1,12 @@
+[
+    {
+        "authors": [ "dem4ply" ],
+        "category": "content",
+        "dependencies": [ "dda" ],
+        "description": "mas equipo con bolsas",
+        "id": "moar_storage",
+        "maintainers": [ "Conference_Calls" ],
+        "name": "moar almacenamiento",
+        "type": "MOD_INFO"
+    }
+]
