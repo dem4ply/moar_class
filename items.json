@@ -22,10 +22,10 @@
         "magazine_well": "350 ml",
         "pocket_type": "CONTAINER",
         "holster": true,
-        "min_item_volume": "400 ml",
+        "min_item_volume": "300 ml",
         "max_contains_volume": "1000 ml",
         "max_contains_weight": "2 kg",
-        "max_item_length": "30 cm",
+        "max_item_length": "50 cm",
         "moves": 50
       },
       {
