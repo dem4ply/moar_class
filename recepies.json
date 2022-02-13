@@ -21,5 +21,44 @@
       [ [ "survivor_vest", 1 ] ],
       [ [ "holster", 1 ] ]
     ]
+  },
+  {
+    "result": "moar_webbing_belt",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "skills_required": [ "fabrication", 3 ],
+    "time": "5 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 10 ] ],
+    "proficiencies": [],
+    "components": [
+      [ [ "webbing_belt", 1 ] ]
+    ]
+  },
+  {
+    "result": "moar_rifle_case_xxl_soft_leather",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "skills_required": [ "fabrication", 3 ],
+    "time": "30 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 10 ] ],
+    "proficiencies": [
+      { "proficiency": "prof_closures" },
+      { "proficiency": "prof_closures_waterproofing" },
+      { "proficiency": "prof_leatherworking_basic" },
+      { "proficiency": "prof_leatherworking" }
+    ],
+    "components": [
+      [ [ "rifle_case_xl_soft_leather", 1 ] ]
+    ]
   }
 ]
