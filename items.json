@@ -147,6 +147,16 @@
         },
         "moves": 20
       }
-    ]
+    ],
+    "armor_data": {
+       "armor": [
+         {
+           "covers": [ "leg_l", "leg_r" ],
+           "coverage": 5,
+           "encumbrance": [ 2, 3 ],
+           "specifically_covers": [ "leg_hip_r", "leg_hip_l" ]
+         }
+       ]
+    }
   }
 ]
