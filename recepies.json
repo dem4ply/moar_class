@@ -60,5 +60,49 @@
     "components": [
       [ [ "rifle_case_xl_soft_leather", 1 ] ]
     ]
+  },
+  {
+    "result": "moar_double_sling",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "skills_required": [ "fabrication", 3 ],
+    "time": "30 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 10 ] ],
+    "proficiencies": [
+      { "proficiency": "prof_closures" },
+      { "proficiency": "prof_closures_waterproofing" },
+      { "proficiency": "prof_leatherworking_basic" },
+      { "proficiency": "prof_leatherworking" }
+    ],
+    "components": [
+      [ [ "single_sling", 2 ] ]
+    ]
+  },
+  {
+    "result": "moar_tactical_holster",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "skills_required": [ "fabrication", 3 ],
+    "time": "30 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 10 ] ],
+    "proficiencies": [
+      { "proficiency": "prof_closures" },
+      { "proficiency": "prof_closures_waterproofing" },
+      { "proficiency": "prof_leatherworking_basic" },
+      { "proficiency": "prof_leatherworking" }
+    ],
+    "components": [
+      [ [ "tactical_holster", 1 ] ]
+    ]
   }
 ]

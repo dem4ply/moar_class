@@ -54,8 +54,33 @@
     "type": "ARMOR",
     "copy-from": "webbing_belt",
     "name": { "str": "cinturon de correas" },
-    "use_action": [ { "type": "attach_molle", "size": 6 }, { "type": "detach_molle" } ],
+    "use_action": [ { "type": "attach_molle", "size": 8 }, { "type": "detach_molle" } ],
     "pocket_data": []
+  },
+  {
+    "id": "moar_double_sling",
+    "type": "ARMOR",
+    "copy-from": "single_sling",
+    "name": { "str": "eslinga de 2 puntos" },
+    "flags": [ "OVERSIZE", "BELTED", "PALS_SMALL" ]
+  },
+  {
+    "id": "moar_tactical_holster",
+    "type": "ARMOR",
+    "copy-from": "tactical_holster",
+    "name": { "str": "funda tactica" },
+    "pocket_data": [
+      {
+        "magazine_well": "350 ml",
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "min_item_volume": "300 ml",
+        "max_contains_volume": "1000 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "50 cm",
+        "moves": 70
+      }
+    ]
   },
   {
     "id": "moar_rifle_case_xxl_soft_leather",
