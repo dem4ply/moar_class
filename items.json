@@ -62,6 +62,17 @@
     "type": "ARMOR",
     "copy-from": "single_sling",
     "name": { "str": "eslinga de 2 puntos" },
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "min_item_volume": "1000 ml",
+        "max_contains_volume": "10 L",
+        "max_contains_weight": "10000 g",
+        "max_item_length": "130 cm",
+        "moves": 30
+      }
+    ],
     "flags": [ "OVERSIZE", "BELTED", "PALS_SMALL" ]
   },
   {
