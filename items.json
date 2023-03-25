@@ -37,6 +37,7 @@
   },
   {
     "id": "moar_school_shirt_summer",
+    "type": "ARMOR",
     "copy-from": "moar_school_shirt",
     "name": { "str": "camisa escolar de verano" },
     "description": "una camisa de color blanco con el emblema de una escuela en el bolsillo, es la version de verano de la escuela",
@@ -77,6 +78,7 @@
   {
     "id": "moar_school_blazzer",
     "copy-from": "blazer",
+    "type": "ARMOR",
     "name": { "str": "chaqueta escolar" },
     "description": "una chaqueta paarte del uniforme de los estudiantes de la escuela  con el simbolo de la escuela en el bolsillo del pecho.",
     "use_action": {
@@ -89,6 +91,7 @@
   {
     "id": "moar_school_blazzer_skirt",
     "copy-from": "moar_school_blazzer",
+    "type": "ARMOR",
     "name": { "str": "chaqueta escolar como falda" },
     "description": "una chaqueta paarte del uniforme de los estudiantes de la escuela  con el simbolo de la escuela en el bolsillo del pecho, esta doblada para que se pueda sujetar desde la cintura.",
     "flags": [ "VARSIZE", "FANCY", "OUTER" ],
@@ -105,6 +108,7 @@
   },
   {
     "id": "moar_school_tie_necktie",
+    "type": "ARMOR",
     "copy-from": "tie_necktie",
     "name": { "str": "corbata escolar" },
     "description": "Una corbata con los colores de la escuela."
