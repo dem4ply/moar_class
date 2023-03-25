@@ -17,10 +17,20 @@
       { "level": 4, "name": "throw" },
       { "level": 5, "name": "swimming" }
     ],
+    "CBMs": [
+      "bio_targeting",
+      "bio_recoil",
+      "bio_ups",
+      "bio_uncanny_dodge",
+      "bio_weight",
+      "bio_trickle",
+      "bio_power_storage_mkII"
+    ],
+    "traits": [
+      "ALBINO", "DEX_UP", "STR_UP", "INT_UP", "PER_UP", "PRETTY"
+     ],
     "items": {
       "both": {
-        "entries": [ { "group": "" }, { "item": "tshirt", "variant": "generic_tshirt" } ]
-
         "items": [
           "gloves_liner",
           "gloves_tactical",
