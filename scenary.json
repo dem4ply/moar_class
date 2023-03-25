@@ -1,0 +1,16 @@
+[
+  {
+    "type": "scenario",
+    "id": "moar_heli_crash",
+    "name": "Moar Helicopter Crash",
+    "points": -5,
+    "description": "Mientras te transportaban para ir a buscar a tu cliente para poder extraerla tu helicoptero se estrello.  Por suerte algunos soldados sovrevivieron al acidente.",
+    "start_name": "Crash site",
+    "allowed_locs": [ "sloc_field", "sloc_forest", "sloc_desert_island" ],
+    "professions": [
+      "moar_vastgrow_school_girl_bodyguard"
+    ],
+    "map_extra": "mx_helicopter",
+    "flags": [ "HELI_CRASH", "LONE_START" ]
+  }
+]

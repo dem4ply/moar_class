@@ -1,0 +1,78 @@
+[
+  {
+    "type": "profession",
+    "id": "moar_vastgrow_school_girl_bodyguard",
+    "name": "guardaespaldas invitro colegiada",
+    "description": "Antes del Cataclysm eras una guardaespaldas ha sido genéticamente diseñada y criada en un ambiente controlado desde el momento de su concepción, y su desarrollo ha sido supervisado por expertos en seguridad y protección personal. Debido a su formación académica, está altamente capacitada en estrategias de seguridad y protección personal, lo que la convierte en una adversaria formidable para cualquier posible amenaza. Además, está entrenada en artes marciales, manejo de armas y técnicas de defensa personal para garantizar la seguridad de su cliente. La ojousan puede confiar en su guardaespaldas para protegerla en todo momento y en cualquier situación, mientras que la guardaespaldas se dedica a velar por la seguridad y el bienestar de ella en todo momento.",
+    "points": 8,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_spotting", "prof_wound_care", "prof_handloading" ],
+    "skills": [
+      { "level": 6, "name": "gun" },
+      { "level": 6, "name": "rifle" },
+      { "level": 4, "name": "melee" },
+      { "level": 4, "name": "pistol" },
+      { "level": 3, "name": "stabbing" },
+      { "level": 3, "name": "dodge" },
+      { "level": 4, "name": "firstaid" },
+      { "level": 4, "name": "throw" },
+      { "level": 5, "name": "swimming" }
+    ],
+    "items": {
+      "both": {
+        "entries": [ { "group": "" }, { "item": "tshirt", "variant": "generic_tshirt" } ]
+
+        "items": [
+          "gloves_liner",
+          "gloves_tactical",
+          "socks",
+          "diving_watch",
+          "boots_combat",
+          "moar_webbing_belt",
+
+          "moar_school_tie_necktie",
+          "moar_school_shirt",
+          "moar_school_shirt_summer",
+          "moar_school_skirt",
+          "moar_school_blazzer",
+
+          "pistol_grip",
+          "match_trigger",
+          "laser_sight",
+          "red_dot_sight",
+
+          "textbook_speech",
+          "story_book",
+          "howto_computer"
+        ],
+        "entries": [
+          { "group": "charged_smart_phone" },
+          { "group": "charged_powered_earmuffs" },
+          { "item": "pants_army", "variant": "mil_pants_navy" },
+          { "item": "grenade" },
+          { "item": "light_battery_cell", "ammo-item": "battery", "charges": 100, "container-item": "goggles_nv" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "legpouch_large", "contents-group": "army_mags_m4" },
+          { "item": "ceramic_knife", "container-item": "sheath" },
+
+          { "item": "moar_tactical_holster", "contents-group": "holster_supp_57" },
+          { "item": "suppressor" },
+          { "item": "legpouch_large", "contents-group": "army_mags_57" },
+          { "item": "fn57mag", "ammo-item": "57mm", "charges": 20 },
+          { "item": "fn57mag", "ammo-item": "57mm", "charges": 20 },
+          { "item": "fn57mag", "ammo-item": "57mm", "charges": 20 },
+
+          {
+            "item": "m4_carbine",
+            "variant": "m4_cqbr",
+            "ammo-item": "556",
+            "charges": 30,
+            "contents-item": [ "shoulder_strap", "holo_sight" ]
+          }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    },
+    "flags": [ "SCEN_ONLY" ]
+  }
+]

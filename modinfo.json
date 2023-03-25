@@ -3,10 +3,10 @@
         "authors": [ "dem4ply" ],
         "category": "content",
         "dependencies": [ "dda" ],
-        "description": "mas equipo con bolsas",
-        "id": "moar_storage",
+        "description": "mas clases de rolplay",
+        "id": "moar_class",
         "maintainers": [ "Conference_Calls" ],
-        "name": "moar almacenamiento",
+        "name": "moar clases",
         "type": "MOD_INFO"
     }
 ]

@@ -1,173 +1,112 @@
 [
   {
-    "id": "survivor_vest_with_pistol",
+    "id": "moar_school_shirt",
+    "repairs_like": "tshirt",
     "type": "ARMOR",
-    "copy-from": "survivor_vest",
-    "name": { "str": "arnes de superviviente", "str_pl": "arnes de superviviente" },
-    "description": "Un arnés ligero personalizado con varias ranuras y una eslinga táctica integrada para colgar un pequeño rifle o un arma similar, en la parte trasera tiene una funda de pistola. Duradero y diseñado para ser cómodo de usar. Hay que activarlo para desenfundar y enfundar el arma.",
-    "weight": "520 g",
-    "volume": "1750 ml",
+    "name": { "str": "camisa escolar" },
+    "description": "una camisa de cuello y botone de color blanco con el emblema de una escuela en el bolsillo",
+    "weight": "250 g",
+    "volume": "750 ml",
+    "price": 1500,
+    "price_postapoc": 50,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "tshirt",
+    "color": "white",
+    "armor": [
+      { "covers": [ "torso" ], "coverage": 90, "encumbrance": [ 4, 5 ] },
+      {
+        "coverage": 100,
+        "covers": [ "arm_l", "arm_r" ],
+        "specifically_covers": [ "arm_shoulder_l", "arm_shoulder_r" ]
+      },
+      { "coverage": 50, "covers": [ "arm_l", "arm_r" ], "specifically_covers": [ "arm_upper_l", "arm_upper_r" ] }
+    ],
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
-        "holster": true,
-        "min_item_volume": "1000 ml",
-        "max_contains_volume": "8 L",
-        "max_contains_weight": "8200 g",
-        "max_item_length": "120 cm",
-        "moves": 50
-      },
-      {
-        "magazine_well": "350 ml",
-        "pocket_type": "CONTAINER",
-        "min_item_volume": "300 ml",
-        "max_contains_volume": "1000 ml",
+        "max_contains_volume": "350 ml",
         "max_contains_weight": "2 kg",
-        "max_item_length": "50 cm",
-        "moves": 50
-      },
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "1500 ml",
-        "max_contains_weight": "5 kg",
-        "max_item_length": "20 cm",
+        "max_item_length": "9 cm",
         "moves": 80
-      },
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "1500 ml",
-        "max_contains_weight": "5 kg",
-        "max_item_length": "20 cm",
-        "moves": 80
-      },
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "1500 ml",
-        "max_contains_weight": "5 kg",
-        "max_item_length": "20 cm",
-        "moves": 80
-      }
-    ]
-  },
-  {
-    "id": "moar_webbing_belt",
-    "type": "ARMOR",
-    "copy-from": "webbing_belt",
-    "name": { "str": "cinturon de correas" },
-    "use_action": [ { "type": "attach_molle", "size": 8 }, { "type": "detach_molle" } ],
-    "pocket_data": []
-  },
-  {
-    "id": "moar_double_sling",
-    "type": "ARMOR",
-    "copy-from": "single_sling",
-    "name": { "str": "eslinga de 2 puntos" },
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
-        "holster": true,
-        "min_item_volume": "1000 ml",
-        "max_contains_volume": "10 L",
-        "max_contains_weight": "10000 g",
-        "max_item_length": "130 cm",
-        "moves": 30
       }
     ],
-    "flags": [ "OVERSIZE", "BELTED", "PALS_SMALL" ]
+    "warmth": 10,
+    "material_thickness": 0.1,
+    "flags": [ "VARSIZE", "FANCY" ]
   },
   {
-    "id": "moar_tactical_holster",
-    "type": "ARMOR",
-    "copy-from": "tactical_holster",
-    "name": { "str": "funda tactica" },
-    "pocket_data": [
+    "id": "moar_school_shirt_summer",
+    "copy-from": "moar_school_shirt",
+    "name": { "str": "camisa escolar de verano" },
+    "description": "una camisa de color blanco con el emblema de una escuela en el bolsillo, es la version de verano de la escuela",
+    "warmth": 2,
+    "armor": [
+      { "covers": [ "torso" ], "coverage": 90, "encumbrance": [ 4, 5 ] },
       {
-        "magazine_well": "350 ml",
-        "pocket_type": "CONTAINER",
-        "holster": true,
-        "min_item_volume": "300 ml",
-        "max_contains_volume": "1000 ml",
-        "max_contains_weight": "2 kg",
-        "max_item_length": "50 cm",
-        "moves": 70
-      }
+        "coverage": 100,
+        "covers": [ "arm_l", "arm_r" ],
+        "specifically_covers": [ "arm_shoulder_l", "arm_shoulder_r" ]
+      },
+      { "coverage": 10, "covers": [ "arm_l", "arm_r" ], "specifically_covers": [ "arm_upper_l", "arm_upper_r" ] }
     ]
   },
   {
-    "id": "moar_rifle_case_xxl_soft_leather",
+    "id": "moar_school_skirt",
+    "repairs_like": "jeans",
     "type": "ARMOR",
-    "copy-from": "rifle_case_xl_soft_leather",
-    "name": { "str": "funda extra-larga de cuero para rifles" },
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "12 L",
-        "max_contains_weight": "17000 g",
-        "max_item_length": "165 cm",
-        "moves": 100
-      },
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "1000 ml",
-        "max_contains_weight": "5000 g",
-        "max_item_length": "20 cm",
-        "magazine_well": "500 ml",
-        "moves": 80
-      }
+    "name": { "str": "falda escolar", "str_pl": "faldas escolares" },
+    "description": "Una falda escolar con dobladillos de color negro cafe.",
+    "weight": "225 g",
+    "volume": "250 ml",
+    "price": 65000,
+    "price_postapoc": 50,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "kilt",
+    "color": "black",
+    "pocket_data": [ { "pocket_type": "CONTAINER", "max_contains_volume": "250 ml", "max_contains_weight": "1 kg", "moves": 80 } ],
+    "warmth": 5,
+    "material_thickness": 0.1,
+    "flags": [ "VARSIZE", "FANCY" ],
+    "armor": [
+      { "coverage": 100, "covers": [ "leg_l", "leg_r" ], "specifically_covers": [ "leg_hip_l", "leg_hip_r" ] },
+      { "coverage": 75, "covers": [ "leg_l", "leg_r" ], "specifically_covers": [ "leg_upper_l", "leg_upper_r" ] }
     ]
   },
   {
-    "id": "moar_western_holster",
-    "type": "ARMOR",
-    "copy-from": "western_holster",
-    "name": { "str": "funda de western" },
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
-        "holster": true,
-        "min_item_volume": "100 ml",
-        "max_contains_volume": "1500 ml",
-        "max_contains_weight": "3 kg",
-        "max_item_length": "50 cm",
-        "moves": 30
-      },
-      {
-        "pocket_type": "CONTAINER",
-        "holster": false,
-        "rigid": true,
-        "ammo_restriction": {
-          "32": 18,
-          "762x25": 18,
-          "38": 18,
-          "357mag": 18,
-          "357sig": 18,
-          "380": 18,
-          "38super": 18,
-          "40": 18,
-          "10mm": 18,
-          "44": 18,
-          "45": 18,
-          "45colt": 18,
-          "46": 18,
-          "57": 18,
-          "9x18": 18,
-          "9mm": 18,
-          "454": 18,
-          "460": 18,
-          "500": 18
-        },
-        "moves": 20
-      }
-    ],
-    "armor_data": {
-       "armor": [
-         {
-           "covers": [ "leg_l", "leg_r" ],
-           "coverage": 5,
-           "encumbrance": [ 2, 3 ],
-           "specifically_covers": [ "leg_hip_r", "leg_hip_l" ]
-         }
-       ]
+    "id": "moar_school_blazzer",
+    "copy-from": "blazer",
+    "name": { "str": "chaqueta escolar" },
+    "description": "una chaqueta paarte del uniforme de los estudiantes de la escuela  con el simbolo de la escuela en el bolsillo del pecho.",
+    "use_action": {
+      "menu_text": "Anudar brasos",
+      "type": "transform",
+      "target": "moar_school_blazzer_skirt",
+      "msg": "Enrollas los brazos de la chaqueta ahora puedes ponertela en la cintura."
     }
+  },
+  {
+    "id": "moar_school_blazzer_skirt",
+    "copy-from": "moar_school_blazzer",
+    "name": { "str": "chaqueta escolar como falda" },
+    "description": "una chaqueta paarte del uniforme de los estudiantes de la escuela  con el simbolo de la escuela en el bolsillo del pecho, esta doblada para que se pueda sujetar desde la cintura.",
+    "flags": [ "VARSIZE", "FANCY", "OUTER" ]
+    "armor": [
+      { "coverage": 100, "covers": [ "leg_l", "leg_r" ], "specifically_covers": [ "leg_hip_l", "leg_hip_r" ] },
+      { "coverage": 75, "covers": [ "leg_l", "leg_r" ], "specifically_covers": [ "leg_upper_l", "leg_upper_r" ] }
+    ],
+    "use_action": {
+      "menu_text": "Desanudar brasos",
+      "type": "transform",
+      "target": "moar_school_blazzer",
+      "msg": "Desenrollas los brazos de la chaqueta ahora la puedes usar normalmente."
+    }
+  },
+  {
+    "id": "moar_school_tie_necktie",
+    "copy-from": "tie_necktie",
+    "name": { "str": "corbata escolar" },
+    "description": "Una corbata con los colores de la escuela."
   }
 ]
