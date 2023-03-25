@@ -91,7 +91,7 @@
     "copy-from": "moar_school_blazzer",
     "name": { "str": "chaqueta escolar como falda" },
     "description": "una chaqueta paarte del uniforme de los estudiantes de la escuela  con el simbolo de la escuela en el bolsillo del pecho, esta doblada para que se pueda sujetar desde la cintura.",
-    "flags": [ "VARSIZE", "FANCY", "OUTER" ]
+    "flags": [ "VARSIZE", "FANCY", "OUTER" ],
     "armor": [
       { "coverage": 100, "covers": [ "leg_l", "leg_r" ], "specifically_covers": [ "leg_hip_l", "leg_hip_r" ] },
       { "coverage": 75, "covers": [ "leg_l", "leg_r" ], "specifically_covers": [ "leg_upper_l", "leg_upper_r" ] }
