@@ -95,6 +95,8 @@
     "name": { "str": "chaqueta escolar como falda" },
     "description": "una chaqueta paarte del uniforme de los estudiantes de la escuela  con el simbolo de la escuela en el bolsillo del pecho, esta doblada para que se pueda sujetar desde la cintura.",
     "flags": [ "VARSIZE", "FANCY", "OUTER" ],
+    "warmth": 5,
+    "material_thickness": 0.1,
     "armor": [
       { "coverage": 100, "covers": [ "leg_l", "leg_r" ], "specifically_covers": [ "leg_hip_l", "leg_hip_r" ] },
       { "coverage": 75, "covers": [ "leg_l", "leg_r" ], "specifically_covers": [ "leg_upper_l", "leg_upper_r" ] }

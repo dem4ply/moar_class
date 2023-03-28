@@ -1,5 +1,21 @@
 [
   {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "moar_holster_supp_57",
+    "entries": [ { "item": "fn57", "ammo-item": "57mm", "charges": 20, "contents-item": [ "suppressor", "pistol_grip","match_trigger","laser_sight","red_dot_sight" ] } ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "moar_army_mags_57",
+    "entries": [
+      { "item": "fn57mag", "ammo-item": "57mm", "charges": 20 }, { "item": "fn57mag", "ammo-item": "57mm", "charges": 20 },
+      { "item": "fn57mag", "ammo-item": "57mm", "charges": 20 }, { "item": "fn57mag", "ammo-item": "57mm", "charges": 20 } ]
+  },
+
+
+  {
     "type": "profession",
     "id": "moar_vastgrow_school_girl_bodyguard",
     "name": "guardaespaldas invitro colegiada",
@@ -18,16 +34,22 @@
       { "level": 5, "name": "swimming" }
     ],
     "CBMs": [
+      "bio_fingerhack",
       "bio_targeting",
       "bio_recoil",
       "bio_ups",
       "bio_uncanny_dodge",
       "bio_weight",
+      "bio_sunglasses",
+      "bio_str_enhancer",
+      "bio_dex_enhancer",
+      "bio_eye_enhancer",
+      "bio_int_enhancer",
       "bio_trickle",
       "bio_power_storage_mkII"
     ],
     "traits": [
-      "ALBINO", "DEX_UP", "STR_UP", "INT_UP", "PER_UP", "PRETTY"
+      "ALBINO", "DEX_UP", "STR_UP_2", "INT_UP", "PER_UP", "PRETTY"
      ],
     "items": {
       "both": {
@@ -37,18 +59,14 @@
           "socks",
           "diving_watch",
           "boots_combat",
+
           "moar_webbing_belt",
+          "mbag_511_big",
 
           "moar_school_tie_necktie",
           "moar_school_shirt",
-          "moar_school_shirt_summer",
           "moar_school_skirt",
           "moar_school_blazzer",
-
-          "pistol_grip",
-          "match_trigger",
-          "laser_sight",
-          "red_dot_sight",
 
           "textbook_speech",
           "story_book",
@@ -57,31 +75,19 @@
         "entries": [
           { "group": "charged_smart_phone" },
           { "group": "charged_powered_earmuffs" },
-          { "item": "pants_army", "variant": "mil_pants_navy" },
           { "item": "grenade" },
           { "item": "light_battery_cell", "ammo-item": "battery", "charges": 100, "container-item": "goggles_nv" },
           { "item": "water_clean", "container-item": "canteen" },
           { "item": "legpouch_large", "contents-group": "army_mags_m4" },
           { "item": "ceramic_knife", "container-item": "sheath" },
 
-          { "item": "moar_tactical_holster", "contents-group": "holster_supp_57" },
-          { "item": "suppressor" },
-          { "item": "legpouch_large", "contents-group": "army_mags_57" },
-          { "item": "fn57mag", "ammo-item": "57mm", "charges": 20 },
-          { "item": "fn57mag", "ammo-item": "57mm", "charges": 20 },
-          { "item": "fn57mag", "ammo-item": "57mm", "charges": 20 },
-
-          {
-            "item": "m4_carbine",
-            "variant": "m4_cqbr",
-            "ammo-item": "556",
-            "charges": 30,
-            "contents-item": [ "shoulder_strap", "holo_sight" ]
-          }
+          { "item": "moar_tactical_holster", "contents-group": "moar_holster_supp_57" },
+          { "item": "legpouch_large", "contents-group": "moar_army_mags_57" },
+          { "group": "full_ifak" }
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "sports_bra", "boxer_shorts" ]
+      "female": [ "sports_bra", "panties" ]
     },
     "flags": [ "SCEN_ONLY" ]
   }
