@@ -58,5 +58,17 @@
         "time": "30 m",
         "type": "recipe",
         "using": [ [ "sewing_standard", 10 ] ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [ [ [ "kevlar", 1 ] ] ],
+        "difficulty": 0,
+        "result": "moar_kevlar",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_OTHER",
+        "time": "30 m",
+        "type": "recipe",
+        "using": [ [ "sewing_standard", 10 ] ]
     }
 ]
